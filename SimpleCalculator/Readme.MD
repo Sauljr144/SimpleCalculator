@@ -3,4 +3,4 @@ Saul Suazo
 Simple Calculator
 Peer Reviewed by: Valerie Aguilar
 Comments: Clean!
-GitHub link:
+GitHub link: https://github.com/Sauljr144/SimpleCalculator
