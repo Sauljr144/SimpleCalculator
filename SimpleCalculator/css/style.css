@@ -1,0 +1,62 @@
+
+/* Font */
+
+.myFont{
+    font-family: 'Roboto';
+    font-weight: 700;
+
+}
+
+/* Font Sizes */
+
+h1{
+    font-size: 4.25rem;
+}
+
+.mySize{
+    font-size: 3rem;
+}
+
+.mySize2 {
+    font-size: 1.95rem;
+}
+
+
+/* Buttons */
+
+.btn-light{
+    background-color: white;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 10px;
+    
+}
+
+
+.btn:hover {
+    background-color: rgb(255, 170, 0);
+    border-color: rgb(255, 140, 0);
+}
+
+
+
+
+
+/* Calculator Screen and Body */
+.mybox1{
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 30px;
+    width: 400px
+}
+
+.mybox2{
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    border-radius: 10px;
+    width: 290px;
+    height: 85px;
+    
+}

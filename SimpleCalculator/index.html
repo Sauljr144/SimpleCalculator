@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simple Calculator</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+
+
+    <main>
+        <div class="container mt-5 myFont mybox1 p-5 ">
+            <div class="row ">
+                <div class="container d-flex justify-content-center mybox2 mb-3 ">
+                  <div class="col d-flex justify-content-end">  
+                    <h1 id="answer" class="mb-0"></h1> 
+                </div>
+                </div>
+                
+            </div>
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <button data-number value="7" id="num7" type="button" class="btn btn-light me-3 mySize">7</button>
+                        <button data-number value="8" id="num8" type="button" class="btn btn-light me-3 mySize">8</button>
+                        <button data-number value="9" id="num9" type="button" class="btn btn-light me-3 mySize">9</button>
+                        <button data-all-clear value="c" id="clear" type="button" class="btn btn-light mySize">C</button>
+                        
+                    </div>
+                 
+               
+                </div>
+                <div class="row mt-3">
+                    <div class="col d-flex justify-content-center">
+                        <button data-number value="4" id="num4" type="button" class="btn btn-light me-3 mySize">4</button>
+                        <button data-number value="5" id="num5" type="button" class="btn btn-light me-3 mySize">5</button>
+                        <button data-number value="6" id="num6" type="button" class="btn btn-light me-3 mySize">6</button>
+                        <button data-number value="/" id="divideBtn" type="button" class="btn btn-light mySize2"><i class="fa-solid fa-divide"></i></button>
+                        
+                       
+                    </div>
+                    
+                   
+                </div>
+                <div class="row mt-3">
+                    <div class="col d-flex justify-content-center">
+                        <button data-number value="1" id="num1" type="button" class="btn btn-light me-3 mySize">1</button>
+                        <button data-number value="2" id="num2" type="button" class="btn btn-light me-3 mySize">2</button>
+                        <button data-number value="3" id="num3" type="button" class="btn btn-light me-3 mySize">3</button>
+                        <button data-number value="*" id="multiplyBtn" type="button" class="btn btn-light mySize mySize2"><i class="fa-solid fa-xmark"></i></button>
+                        
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col d-flex justify-content-center">
+                        <button data-number value="0" id="num0" type="button" class="btn btn-light me-3 mySize">0</button>
+                        <button data-number value="+" id="addBtn" type="button" class="btn btn-light mySize2 me-3"><i class="fa-solid fa-plus"></i></button>
+                        <button data-number value="-" id="subtractBtn" type="button" class="btn btn-light mySize2 me-3"><i class="fa-solid fa-minus"></i></i></button>
+                        <button data-equals value="=" id="equals" type="button" class="btn btn-light mySize2"><i class="fa-solid fa-equals"></i></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/d9ac576693.js" crossorigin="anonymous"></script>
+    <script src="/scripts/app.js"></script>
+  </body>
+</html>
